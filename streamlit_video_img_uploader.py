@@ -5,7 +5,7 @@ from ultralytics import YOLO
 from PIL import Image
 import numpy as np
 
-model_choice = st.selectbox("Selecciona el modelo YOLO a usar:", ["best.pt", "last.pt"])
+model_choice = st.selectbox("Selecciona el modelo YOLO a usar:", ["v8n.pt", "v8s.pt"])
 
 # Cargar modelo solo una vez y dependiendo del modelo elegido
 if "loaded_model" not in st.session_state or st.session_state.model_path != model_choice:
