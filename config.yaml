@@ -1,0 +1,7 @@
+path: /content/
+train: deepfish_dataset/train
+val: deepfish_dataset/val
+
+# Classes
+names:
+  0: Fish
