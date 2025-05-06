@@ -1,4 +1,4 @@
-path: /content/
+path: /mnt/d/Universidad/Haia/Proyecto/chupiversion/Deepfish/
 train: deepfish_dataset/train
 val: deepfish_dataset/val
 
